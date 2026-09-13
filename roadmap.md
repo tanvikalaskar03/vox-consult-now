@@ -1,0 +1,3 @@
+- [x] Build the VoxConsult warm editorial home and consultation flow
+- [x] Add the small stateless FastAPI recommendation API
+- [x] Validate the backend response with installed FastAPI dependencies
