@@ -21,7 +21,7 @@ export type ConsultationResponse = {
   recommendation: Recommendation;
 };
 
-const API_BASE_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
+const API_BASE_URL = import.meta.env["VITE_API_URL"] ?? "http://localhost:8000";
 
 export async function getServices(): Promise<string[]> {
   const response = await fetch(`${API_BASE_URL}/api/services`);
